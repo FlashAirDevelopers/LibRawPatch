@@ -1,5 +1,7 @@
 # LibRawPatch
-A patch files about slight modifications to LibRaw made by Toshiba corporation.
+
+Toshiba Corporation made slight modifications on the LibRaw.
+
 ## About LibRaw
 
 http://www.libraw.org/
