@@ -1,14 +1,14 @@
 apply plugin: 'com.android.model.library'
 
-def libraw_directory = 'LibRaw-0.17.2'
+def libraw_directory = 'LibRaw-0.19.2'
 model {
     android {
-        compileSdkVersion = 23
-        buildToolsVersion = '23.0.3'
+        compileSdkVersion = 27
+        buildToolsVersion = '27.0.3'
 
         defaultConfig {
-            minSdkVersion.apiLevel = 10
-            targetSdkVersion.apiLevel = 19
+            minSdkVersion.apiLevel = 16
+            targetSdkVersion.apiLevel = 27
             versionCode = 1
             versionName = '1.0'
         }
@@ -29,7 +29,8 @@ model {
                             "**/aahd_demosaic.cpp",
                             "**/dht_demosaic.cpp",
                             "**/libraw_x3f.cpp",
-                            "**/wf_filtering.cpp"
+                            "**/wf_filtering.cpp",
+                            "**/libraw_fuji_compressed.cpp"
                     ]
                 }
                 exportedHeaders {
