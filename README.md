@@ -1,6 +1,6 @@
 # LibRawPatch
 
-Toshiba Corporation made slight modifications on the LibRaw.
+Toshiba Memory Corporation made slight modifications on the LibRaw.
 
 ## About LibRaw
 

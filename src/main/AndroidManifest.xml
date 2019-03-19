@@ -1,6 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.co.toshiba.android.FlashAir">
+<manifest package="jp.co.toshiba.android.FlashAir">
 
-    <application></application>
+    <application />
 
 </manifest>
